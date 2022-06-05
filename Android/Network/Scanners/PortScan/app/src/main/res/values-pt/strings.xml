@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="project_name">PortScan</string>
+    <string name="results_tv">Resultados</string>
+	<string name="scanning">Escaneando porta número</string>
+	<string name="start_scan_bt">Escanear</string>
+	<string name="stop_bt">Parar</string>
+	<string name="scan_stopped">Parado</string>
+	<string name="ip_address_et">Endereço IP</string>
+	<string name="start_port_et">Porta Inicial</string>
+	<string name="end_port_et">Porta Final</string>
+	<string name="show_open_ports_cb">Exibir Portas Abertas</string>
+	<string name="show_closed_ports_cb">Exibir Portas Fechadas</string>
+	<string name="timeout">Tempo(Milissegundos)</string>
+	<string name="scan_end">Fim do scan!</string>
+</resources>

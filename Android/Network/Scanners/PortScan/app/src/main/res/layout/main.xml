@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top"
+	android:orientation="vertical"
+	android:background="#666666">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:id="@+id/logo_tv"
+		android:textSize="33sp"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical">
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:ems="10"
+				android:hint="@string/ip_address_et"
+				android:id="@+id/ipaddrEditText"
+				android:textColor="#00FF00"
+				android:textColorHint="#00AA00"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="horizontal">
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:inputType="number"
+					android:layout_width="wrap_content"
+					android:ems="5"
+					android:hint="@string/start_port_et"
+					android:id="@+id/start_portEditText"
+					android:textColor="#00FF00"
+					android:textColorHint="#00AA00"
+					android:text="0"
+					android:maxLength="5"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:ems="5"
+					android:hint="@string/end_port_et"
+					android:inputType="number"
+					android:textColorHint="#00AA00"
+					android:textColor="#00FF00"
+					android:id="@+id/end_portEditText"
+					android:text="65535"
+					android:maxLength="5"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/start_scan_bt"
+				android:id="@+id/start_scanButton"
+				android:textColor="#660000"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/stop_bt"
+				android:textColor="#660000"
+				android:id="@+id/stopButton"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:hint="@string/timeout"
+			android:text="20"
+			android:textColor="#00FF00"
+			android:textColorHint="#00AA00"
+			android:id="@+id/timeoutEditText"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical">
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/show_open_ports_cb"
+				android:textColor="#FFBB00"
+				android:id="@+id/show_openCheckBox"
+				android:checked="true"/>
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/show_closed_ports_cb"
+				android:textColor="#FFBB00"
+				android:id="@+id/show_closedCheckBox"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="@string/results_tv"
+		android:gravity="center"
+		android:id="@+id/resultsTextView"
+		android:textColor="#FFFF00"/>
+
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:background="#000000"/>
+
+	<ProgressBar
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/scanProgressBar"
+		android:visibility="gone"/>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/scan_resultsTextView"
+			android:textIsSelectable="true"/>
+
+	</ScrollView>
+
+</LinearLayout>
+

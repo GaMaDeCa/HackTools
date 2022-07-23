@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Obfuscador</string>
+    <string name="action_bar_name">Obfuscador[Python]</string>
+	<string name="bt_clear">Limpar</string>
+	<string name="bt_obfuscate">Obfuscar</string>
+	<string name="etIn">Entre seu código aqui, esse obfuscador suporta as seguintes linguagens: python.</string>
+	<string name="etOut">Saída do código obfuscado.</string>
+	<string name="cr">Créditos</string>
+	<string name="ed">Criador</string>
+	<string name="it">Ícone</string>
+	<string name="s">Talismã Ícones criados por photo3idea_studio - Flaticon</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Obfuscator</string>
+    <string name="action_bar_name">Obfuscator[Python]</string>
+	<string name="bt_clear">Clear</string>
+	<string name="bt_obfuscate">Obfuscate</string>
+	<string name="etIn">Enter your code here, this obfuscator supports the following languages: python.</string>
+	<string name="etOut">Output of the obfuscated code.</string>
+	<string name="cr">Credits</string>
+	<string name="ed">Creator</string>
+	<string name="it">Icon</string>
+	<string name="s">Talisman Icons created by photo3idea_studio - Flaticon</string>
+</resources>

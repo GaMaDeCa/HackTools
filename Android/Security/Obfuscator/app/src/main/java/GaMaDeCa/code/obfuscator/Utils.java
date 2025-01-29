@@ -1,4 +1,4 @@
-package alien8652.code.obfuscator;
+package GaMaDeCa.code.obfuscator;
 
 import android.util.Base64;
 import java.io.UnsupportedEncodingException;

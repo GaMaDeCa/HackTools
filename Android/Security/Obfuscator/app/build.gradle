@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.0"
 
     defaultConfig {
-        applicationId "alien8652.code.obfuscator"
+        applicationId "GaMaDeCa.code.obfuscator"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1

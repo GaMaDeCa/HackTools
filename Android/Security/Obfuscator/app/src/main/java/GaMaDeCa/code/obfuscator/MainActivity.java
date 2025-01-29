@@ -1,4 +1,4 @@
-package alien8652.code.obfuscator;
+package GaMaDeCa.code.obfuscator;
 
 import android.app.Activity;
 import android.os.Bundle;

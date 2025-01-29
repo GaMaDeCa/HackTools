@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="alien8652.code.obfuscator" >
+    package="GaMaDeCa.code.obfuscator" >
 
     <application
         android:allowBackup="true"

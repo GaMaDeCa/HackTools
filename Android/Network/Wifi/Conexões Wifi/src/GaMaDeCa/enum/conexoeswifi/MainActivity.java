@@ -1,4 +1,4 @@
-package alien8652.enum.conexoeswifi;
+package GaMaDeCa.enum.conexoeswifi;
 
 import android.app.*;
 import android.os.Bundle;

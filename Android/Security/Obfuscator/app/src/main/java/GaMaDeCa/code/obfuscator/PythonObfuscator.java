@@ -1,4 +1,4 @@
-package alien8652.code.obfuscator;
+package GaMaDeCa.code.obfuscator;
 
 public class PythonObfuscator
 {

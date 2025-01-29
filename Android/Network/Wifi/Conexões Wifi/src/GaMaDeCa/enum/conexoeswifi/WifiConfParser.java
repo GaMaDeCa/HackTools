@@ -1,4 +1,4 @@
-package alien8652.enum.conexoeswifi;
+package GaMaDeCa.enum.conexoeswifi;
 import java.util.*;
 public class WifiConfParser{
 	public WifiConfParser(){}

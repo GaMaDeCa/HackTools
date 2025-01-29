@@ -1,4 +1,4 @@
-package alien8652.hacktools.portscan;
+package GaMaDeCa.hacktools.portscan;
 
 import android.app.Activity;
 import android.os.AsyncTask;

@@ -1,4 +1,4 @@
-package alien8652.enum.conexoeswifi;
+package GaMaDeCa.enum.conexoeswifi;
 public class Network{
 	String SSID="",
 		   PSK="",

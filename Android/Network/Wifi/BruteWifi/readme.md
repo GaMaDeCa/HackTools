@@ -1,0 +1,1 @@
+TODO>Ask for location and fine location access, needs these 2 permissions enabled for the scan work successfully 

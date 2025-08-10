@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan_nets">Escanear Redes</string>
+    <string name="no_wifi">Nenhuma Rede Wifi Encontrada!</string>
+    <string name="set_wordlist">Mudar Wordlist</string>
+    <string name="choose">Escolha uma opção</string>
+    <string name="brute_attack">Ataque de Força-Bruta!</string>
+    <string name="update">Atualizar</string>
+    <string name="update_wordlist">Atualizar WordList</string>
+    <string name="password_found">SENHA ENCONTRADA!</string>
+    <string name="password">A senha é %PSW\n(Na verdade não, o suporte ao algoritimo de verificação de sucesso de conexão foram removidos!)</string>
+    <string name="turn_wifi_on">Ligue sua rede wifi depois pressione o botão de escanear e aguarde por volta de 5 segundos!</string>
+    <string name="show_info">Exibir Info</string>
+    <string name="ok">OK</string>
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+    <string name="cancel">Cancelar</string>
+</resources>

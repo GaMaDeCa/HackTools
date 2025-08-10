@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BruteWifi</string>
+    <string name="scan_nets">Scan Networks</string>
+    <string name="no_wifi">No Wifi Network Found!</string>
+    <string name="set_wordlist">Set Wordlist</string>
+    <string name="choose">Choose an option</string>
+    <string name="brute_attack">Brute Force Attack!</string>
+    <string name="update">Update</string>
+    <string name="update_wordlist">Update WordList</string>
+    <string name="password_found">PASSWORD FOUND!</string>
+    <string name="password">The password is %PSW\n(Actually it inst, the algortihm support for verifying sucessful connections were removed!)</string>
+    <string name="turn_wifi_on">Turn on your wifi network then press the scan button and wait for around 5 seconds!</string>
+    <string name="show_info">Show Info</string>
+    <string name="ok">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="cancel">Cancel</string>
+</resources>

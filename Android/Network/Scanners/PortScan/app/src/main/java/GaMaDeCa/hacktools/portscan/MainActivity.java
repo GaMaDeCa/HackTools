@@ -114,7 +114,7 @@ public class MainActivity extends Activity
 		return random_color;
 	}
 	public void logo() {
-		String text_logo="PortScan - Alien8652";
+		String text_logo="PortScan - GaMaDeCa";
 		SpannableStringBuilder ssb_logo=new SpannableStringBuilder();
 		for (int i=0;i<text_logo.length();i++)
 			ssb_logo.append(MulticoloredText(""+text_logo.charAt(i),Color.parseColor(getRandomHexColor())));

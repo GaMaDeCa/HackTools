@@ -69,7 +69,7 @@ public class MainActivity extends Activity
 		crdts.setMovementMethod(LinkMovementMethod.getInstance());
 		crdts.setText(Html.fromHtml("<h1>"
 					 +getString(R.string.cr)+":</h1> - "
-					 +getString(R.string.ed)+"<br><a href=\"https://github.com/GaMaDeCa\">github.com/Alien8652</a><br><br> - "
+					 +getString(R.string.ed)+"<br><a href=\"https://github.com/GaMaDeCa\">github.com/GaMaDeCa</a><br><br> - "
 					 +getString(R.string.it)+"<br><a href=\"https://www.flaticon.com/br/icones-gratis/talisma\" title=\"talismã ícones\">"
 					 +getString(R.string.s)+"</a>"));
 	}
